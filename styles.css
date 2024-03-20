@@ -1,0 +1,83 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#poorpeople{
+  position: relative;
+  left: 25%;
+  width: 750px;
+  height: 300px;
+}
+
+header {
+  background-color: #b82f9f;
+  padding: 20px;
+}
+body{
+background-color: #f5f5f5;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.donate-btn {
+  background-color: #4abd4e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.volunteer-btn {
+  background-color: #4abd4e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.donate-btn:hover {
+  background-color: #b82f9f;
+}
+
+.volunteer-btn:hover {
+  background-color: #b82f9f;
+}
+
+footer {
+  background-color: #b82f9f;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+

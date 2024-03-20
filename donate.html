@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    
+	<link rel="stylesheet" type="text/css" href="donate.css">
+	<link rel="stylesheet" href="footer.css">
+	<script src="https://kit.fontawesome.com/bd32583c0c.js" crossorigin="anonymous"></script>
+	<script src="blrarea.js" defer></script>
+	
+</head>
+<header>
+	<div class="nav-item">
+	<a
+	  href="index2.html"
+	  class="home">
+	  Home</a
+	>
+  </div>
+  <div class="nav-item">
+	<a
+	  href="aboutus.html"
+	  class="aboutus">
+	  About Us
+	  </a>
+  </div>
+  <div class="nav-item">
+	<a href="blog.html" class="blog">
+	  Blog
+	  </a>
+  </div>
+  <div class="nav-item">
+	<a
+	  href="donate.html"
+	  class="donatemonthly"
+	  >Donate</a
+	>
+  </div>
+  <div class="nav-item">
+	<button class="city-dropdown">
+	  Select Area</button>
+	  <ul class="city-dropdown-content">
+		<li><a href="#">North Bangalore</a></li>
+		<li><a href="#">Central Bangalore</a></li>
+		<li><a href="#">South Bangalore</a></li>
+		</ul>
+  </div>
+  <div class="nav-itemright">
+	<i class="fa-regular fa-user"></i>
+	<a
+	  href="login.html"
+	  class="login"
+	  >SignUp/SignIn</a
+	>
+  </div></header>
+<body>
+	<div class="blackbackground">
+		<h1>Donate</h1>
+	  </div>
+	<form action="process_donation.php" method="post">
+		<h2>Donate to DaanKaro</h2>
+		<p>Your contribution makes a difference! Select your desired donation amount and schedule.</p>
+	  
+		<div class="donation-amount">
+		  <label for="amount">Donation Amount:</label>
+		  <select name="amount" id="amount">
+			<option value="10">₹10</option>
+			<option value="25">₹25</option>
+			<option value="50">₹50</option>
+			<option value="100">₹100</option>
+		  </select>
+		  <input type="number" name="custom_amount" id="custom_amount" placeholder="Enter custom amount" style="display: none;">
+		</div>
+	  
+		<div class="donation-frequency">
+		  <label for="frequency">Donation Frequency:</label>
+		  <input type="radio" name="frequency" id="one-time" value="one-time" checked>
+		  <label for="one-time">One-time Donation</label>
+		  <input type="radio" name="frequency" id="monthly" value="monthly">
+		  <label for="monthly">Monthly Donation</label>
+		</div>
+	  
+		<div class="submit-button">
+		  <input type="submit" value="Donate Now">
+		</div>
+	  </form>
+	  <footer>
+		<div class="footer-container">
+			<div class="footer-section">
+				<h3>Company</h3>
+				<ul>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="#">Management Team</a></li>
+					<li><a href="#">Board of Directors</a></li>
+					<li><a href="#">Investor Relations</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h3>Resources</h3>
+				<ul>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Customers</a></li>
+					<li><a href="#">Partners</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h3>Legal</h3>
+				<ul>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Copyright Policy</a></li>
+				</ul>
+			</div>
+			<div class="footer-section">
+				<h3>Social</h3>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">LinkedIn</a></li>
+					<li><a href="#">Instagram</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			&copy; 2024 DaanKaro. All rights reserved.
+		</div>
+	</footer>
+</body>
+</html>	  
